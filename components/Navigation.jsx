@@ -31,6 +31,9 @@ export default function Navigation(){
                 <li className="nav-item">
                 <Link className="nav-link" href="/paquetes">Paquetes</Link>
                 </li>
+                <li className="nav-item">
+                <Link className="nav-link" href="/contacto">Contacto</Link>
+                </li>
             </ul>
             </div>
         </div>

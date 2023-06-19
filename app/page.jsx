@@ -1,15 +1,18 @@
 import React from "react";
-import Image from "next/image";
 
 export default function IndexPage(){
   return(
     <main>
-        <div className="banner container-fluid p-0" height={200}>
-          <Image src="/header_salon.jpg" 
-            className="overflow-hidden img-fluid"
-            alt="banner" 
-            width={1920} 
-            height={200}/>
+        <div style={{
+           backgroundImage: `url(${"/header_salon.jpg"})`,
+           backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+           height: '100vh'
+           }}>
+            <div className="position-absolute top-50 start-50 translate-middle">
+              <p className="text-white fs-1">Contenido del banner </p>
+            </div>
+          
         </div>
         <h1 className="text-center">Quienes somos</h1>
         <div className="col-12">Imagen grande con slogan</div>

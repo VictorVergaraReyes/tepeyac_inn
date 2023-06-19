@@ -72,6 +72,17 @@
   max-width: 30ch;
 }
 
+/* .banner{
+  overflow: hidden; /* Oculta cualquier contenido que exceda la altura máxima */
+  max-height: 300px;
+} */
+/* .graphic{
+  width: 100vw;
+  height: 10vh;
+  overflow: hidden;
+  object-fit: cover;
+  background-image:url("../header_salon.jpg");
+} */
 .center {
   display: flex;
   justify-content: center;

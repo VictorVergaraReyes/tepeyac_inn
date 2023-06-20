@@ -1,7 +1,7 @@
 export default function Contacto(){
   return(
-      <section className="row align-items-start bg-dark-subtle">
-        <div className="text-center">Imagen</div>
+      <main className="bg-dark-subtle">
+        <div className="row align-items-start">
         <h1 className="text-center">Contacto</h1>
         <div className="col-12 col-lg-6">
           <ul >
@@ -32,6 +32,7 @@ export default function Contacto(){
           </iframe>
         </section>
         
-      </section>
+        </div>
+      </main>
     )
   }

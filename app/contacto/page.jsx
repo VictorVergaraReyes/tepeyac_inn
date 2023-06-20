@@ -1,6 +1,6 @@
 export default function Contacto(){
   return(
-      <section className="container row align-items-start">
+      <section className="row align-items-start bg-dark-subtle">
         <div className="text-center">Imagen</div>
         <h1 className="text-center">Contacto</h1>
         <div className="col-12 col-lg-6">

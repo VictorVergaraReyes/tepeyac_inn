@@ -1,9 +1,9 @@
 
 export default function EventosPage(){
   return(
-    <div className="p-3">
-      <h1>Eventos</h1>
-      <main>
+    <div className="bg-dark-subtle p-3">
+      <h1 className="text-center">Eventos</h1>
+      <main className="container">
         <section className="row">
           <div className="col-12 col-md-6 col-md-6">
             <h2>XV años</h2>

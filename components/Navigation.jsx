@@ -44,12 +44,12 @@ export default function Navigation(){
             </div>
         </div>
         </nav>
-        <div className={`columns ${menu?'d-flex':'d-none'}`}>
-        <ul><Link className="nav-link active" aria-current="page" href="/">Home</Link></ul>
-        <ul><Link className="nav-link" href="/eventos">Eventos</Link></ul>
-        <ul><Link className="nav-link" href="/galeria">Galeria</Link></ul>
-        <ul><Link className="nav-link" href="/paquetes">Paquetes</Link></ul>
-        <ul><Link className="nav-link" href="/contacto">Contacto</Link></ul>
+        <div className={`${menu?'d-flex':'d-none'} flex-column `}>
+        <ul><Link className="nav-link text-center" aria-current="page" href="/">Home</Link></ul>
+        <ul><Link className="nav-link text-center" href="/eventos">Eventos</Link></ul>
+        <ul><Link className="nav-link text-center" href="/galeria">Galeria</Link></ul>
+        <ul><Link className="nav-link text-center" href="/paquetes">Paquetes</Link></ul>
+        <ul><Link className="nav-link text-center" href="/contacto">Contacto</Link></ul>
     </div>
     </section>  
     )

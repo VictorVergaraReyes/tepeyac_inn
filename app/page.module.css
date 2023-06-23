@@ -1,10 +1,14 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  background-color: black;
+  color: #fafafa;
+}
+
+.imagen{
+  opacity: 0.3;
+}
+
+.slogan{
+  font-size: clamp(2em,5vw,10em);
 }
 
 .description {

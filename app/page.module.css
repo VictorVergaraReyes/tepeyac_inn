@@ -8,7 +8,16 @@
 }
 
 .slogan{
-  font-size: clamp(2em,5vw,10em);
+  font-size: clamp(1rem,2vw,3rem);
+}
+.banner{
+  margin-bottom: 8vh;
+}
+.acerca{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .description {
@@ -75,10 +84,6 @@
   line-height: 1.5;
   max-width: 30ch;
 }
-
-.banner{
-  background-image: url('/header_salon.jpg');
-} 
 /* .graphic{
   width: 100vw;
   height: 10vh;

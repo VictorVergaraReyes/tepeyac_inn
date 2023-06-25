@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./page.module.css"
 import Navigation from "@/components/Navigation";
+import Image from "next/image";
+import Carousel from "@/components/Carousel";
 
 export default function IndexPage(){
   return(
@@ -31,6 +33,8 @@ Cada evento que organizamos es como si fuera nuestro!
             </p>
           </div>
         </section>
+        {/* Carrusel */}
+        <Carousel></Carousel>   
     </body>
   )
 }

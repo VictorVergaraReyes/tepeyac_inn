@@ -1,8 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import Navigation from "@/components/Navigation";
 function Paquetes(){
   return(
     <div className="bg-dark-subtle">
+      <Navigation></Navigation>
       <h1 className="text-center">Paquetes</h1>
       <div className="container">
         <h1>Paquetes de boda</h1>

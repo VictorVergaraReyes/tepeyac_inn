@@ -1,7 +1,9 @@
+import Navigation from "@/components/Navigation"
 
 export default function EventosPage(){
   return(
     <div className="bg-dark-subtle p-3">
+      <Navigation></Navigation>
       <h1 className="text-center">Eventos</h1>
       <main className="container">
         <section className="row">

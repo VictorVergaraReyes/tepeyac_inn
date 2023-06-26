@@ -9,6 +9,7 @@
 
 .slogan{
   font-size: clamp(1rem,2vw,3rem);
+  font-family: 'Caveat Brush', cursive;
 }
 .banner{
   margin-bottom: 8vh;
@@ -19,6 +20,8 @@
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 
 .description {
   display: inherit;

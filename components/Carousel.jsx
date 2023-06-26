@@ -49,17 +49,17 @@ export default function Carousel(){
       };
     return(
     <>
-        <h2>Opiniones</h2>
-        <div>
+        <h2 className="text-center">Opiniones</h2>
+        <div className='mx-1 p-5'>
             <div>
             <Slider {...settings}>
             {
                 clients.map((client,index)=>{
                     return(
                     <div key={index}>
-                        <h3>{client.ranking}</h3>
-                        <p>{client.text}</p>
-                        <h3>{client.autor}</h3>
+                        <h3 className="text-center">{client.ranking}</h3>
+                        <p className="text-center">{client.text}</p>
+                        <h3 className="text-center">{client.autor}</h3>
                     </div>)
                 })
             }

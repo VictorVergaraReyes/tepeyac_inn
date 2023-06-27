@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
+import styles from "./page.module.css"
 
 function Galeria(){
   return(
-    <div className="bg-dark-subtle">
+    <main className={styles.main}>
       <Navigation></Navigation>
       <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
 
@@ -87,7 +88,7 @@ function Galeria(){
 
 
       </div>
-    </div>
+    </main>
   )
 }
 

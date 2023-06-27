@@ -1,7 +1,8 @@
 import Navigation from "@/components/Navigation"
+import styles from "./page.module.css"
 export default function Contacto(){
   return(
-      <main className="bg-dark-subtle">
+      <main className={styles.main}>
         <Navigation></Navigation>
         <div className="container-fluid row align-items-start">
         <h1 className="text-center">Contacto</h1>

@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
+import styles from "./page.module.css";
 function Paquetes(){
   return(
-    <div className="bg-dark-subtle">
+    <main className={styles.main}>
       <Navigation></Navigation>
       <h1 className="text-center">Paquetes</h1>
       <div className="container">
@@ -65,7 +66,7 @@ function Paquetes(){
         </div>
         </div>
       </div>
-    </div>
+    </main>
   )
 }
 

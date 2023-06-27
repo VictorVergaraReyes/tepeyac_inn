@@ -1,11 +1,12 @@
 import Navigation from "@/components/Navigation"
+import styles from "./page.module.css"
 
 export default function EventosPage(){
   return(
-    <div className="bg-dark-subtle p-3">
+    <main className={styles.main}>
       <Navigation></Navigation>
       <h1 className="text-center">Eventos</h1>
-      <main className="container">
+      <div className="container">
         <section className="row">
           <div className="col-12 col-md-6 col-md-6">
             <h2>XV años</h2>
@@ -43,8 +44,8 @@ export default function EventosPage(){
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti laboriosam sunt necessitatibus similique quia error quaerat libero iusto perspiciatis ea! Voluptatibus eligendi facilis molestias non et culpa voluptate quidem. Tenetur quod aspernatur animi, sint eveniet aperiam provident repellat qui et fuga facilis? Exercitationem aperiam cum magnam ipsum, eligendi non quas!
           </div>
         </section>
-      </main>
-    </div>
+      </div>
+    </main>
   )
 }
 

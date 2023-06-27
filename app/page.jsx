@@ -8,7 +8,8 @@ import { Parisienne } from '@next/font/google'
 
 const parisienne=Parisienne({
   weight:['400'],
-  subsets:['latin']
+  subsets:['latin'],
+  display:'swap'
 })
 
 export default function IndexPage(){
@@ -26,15 +27,15 @@ export default function IndexPage(){
            opacity:0.3
            }}>            
         </div>
-          <div className="position-absolute top-50 start-50 translate-middle">
-            <p className="text-white fs-1 text-center">Contenido del banner </p>
+          <div className={styles.textoBanner}>
+            <p className={parisienne.className}>Tepeyac inn </p>
           </div> 
         </section>
             
         <section className={styles.acerca}>
           <h1 className="text-center">Acerca de nosotros</h1>
           <div className="row align-items-center">
-            <p className={parisienne.className}>
+            <p>
             En Salón Tepeyac inn  tenemos amplia experiencia en nuestro servicio confía en nosotros no te defraudaremos 
 Cada evento que organizamos es como si fuera nuestro!
             </p>

@@ -29,6 +29,22 @@ export default function Contacto(){
             <option value="4">Salidas escolares</option>
             <option value="4">Otro</option>
           </select>
+          {/* Fecha */}
+          <section className="row">
+          <label htmlFor="date">Fecha:</label>
+          <input
+          className="col-12 col-md-6 col-lg-6"
+            type="date"
+            id="date"
+            required
+          />
+          {/* No de personas */}
+          <div className="col-12 col-md-6 col-lg-6">
+            <label for="exampleFormControlInput1" className="form-label">Número de personas</label>
+            <input type="email" className="form-control" id="exampleFormControlInput1"/>
+          </div>
+          </section>
+          
           <div className="mb-3">
             <label for="exampleFormControlTextarea1" className="form-label">Describenos el evento</label>
             <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>

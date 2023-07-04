@@ -11,7 +11,7 @@ export default function EventosPage(){
         <section className="row">
           <div className="col-12 col-md-6 col-md-6">
             <h2>XV años</h2>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti laboriosam sunt necessitatibus similique quia error quaerat libero iusto perspiciatis ea! Voluptatibus eligendi facilis molestias non et culpa voluptate quidem. Tenetur quod aspernatur animi, sint eveniet aperiam provident repellat qui et fuga facilis? Exercitationem aperiam cum magnam ipsum, eligendi non quas!
+            En nuestro salón de fiestas, entendemos lo importante que es para ti celebrar tus XV años, un momento lleno de ilusión y significado. Queremos ser parte de este capítulo especial de tu vida, brindándote un espacio excepcionalmente diseñado y un servicio dedicado para que tus sueños se hagan realidad. 
           </div>
           <div className="col-12 col-md-6 col-md-6">
             <Image src={"/imagenes/XV.svg"} width={300} height={200} alt="quince años"/>
@@ -23,14 +23,14 @@ export default function EventosPage(){
           </div>
           <div className="col-12 col-md-6 col-md-6">
           <h2>Bodas</h2>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti laboriosam sunt necessitatibus similique quia error quaerat libero iusto perspiciatis ea! Voluptatibus eligendi facilis molestias non et culpa voluptate quidem. Tenetur quod aspernatur animi, sint eveniet aperiam provident repellat qui et fuga facilis? Exercitationem aperiam cum magnam ipsum, eligendi non quas!
+          Nos complace ofrecerte la experiencia perfecta para hacer realidad el día más especial de tu vida: tu boda. Nos enorgullece brindarte un entorno encantador y elegante, diseñado para crear recuerdos inolvidables. Desde la ceremonia hasta la recepción, nuestro equipo dedicado estará a tu disposición para hacer que cada detalle sea impecable.
           </div>
         </section>
         <section className="row">
           <h2></h2>
           <div className="col-12 col-md-6 col-md-6">
           <h2>Graduaciones</h2>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti laboriosam sunt necessitatibus similique quia error quaerat libero iusto perspiciatis ea! Voluptatibus eligendi facilis molestias non et culpa voluptate quidem. Tenetur quod aspernatur animi, sint eveniet aperiam provident repellat qui et fuga facilis? Exercitationem aperiam cum magnam ipsum, eligendi non quas!
+          Queremos ser parte de esta ocasión tan especial y ofrecerte un espacio excepcional para que celebres tu logro junto a tus seres queridos. Nuestro salón está diseñado para brindarte una experiencia inolvidable. Con una elegante decoración y una atmósfera festiva, te garantizamos un ambiente único para celebrar tu éxito. 
           </div>
           <div className="col-12 col-md-6 col-md-6">
           <Image src={"/imagenes/graduacion2.svg"} width={300} height={200} alt="graduacion"/>
@@ -42,7 +42,7 @@ export default function EventosPage(){
           </div>
           <div className="col-12 col-md-6 col-md-6">
           <h2>Comuniones, bautizos</h2>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti laboriosam sunt necessitatibus similique quia error quaerat libero iusto perspiciatis ea! Voluptatibus eligendi facilis molestias non et culpa voluptate quidem. Tenetur quod aspernatur animi, sint eveniet aperiam provident repellat qui et fuga facilis? Exercitationem aperiam cum magnam ipsum, eligendi non quas!
+          Comprendemos la importancia y el significado especial del bautizo de tu ser querido. Es un momento de alegría y bendición que merece ser celebrado en un entorno acogedor y encantador. Te invitamos a confiar en nuestro equipo para organizar una celebración inolvidable que refleje la solemnidad y la alegría de este evento tan significativo.
           </div>
         </section>
       </div>

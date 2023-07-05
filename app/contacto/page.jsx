@@ -21,7 +21,8 @@ export default function Contacto(){
             <label for="exampleFormControlInput1" className="form-label">Numero de teléfono</label>
             <input type="email" className="form-control" id="exampleFormControlInput1"/>
           </div>
-          <select class="form-select mb-3" aria-label="Default select example">
+          <label for="seleccionEvento" className="form-label">Selecciona el tipo de evento</label>
+          <select id="seleccionEvento" class="form-select mb-3" aria-label="Default select example">
             <option selected>Selecciona el tipo de evento</option>
             <option value="1">XV años</option>
             <option value="2">Boda</option>
@@ -31,18 +32,15 @@ export default function Contacto(){
           </select>
           {/* Fecha */}
           <section className="row">
-          <label htmlFor="date">Fecha:</label>
-          <input
-          className="col-12 col-md-6 col-lg-6"
-            type="date"
-            id="date"
-            required
-          />
-          {/* No de personas */}
-          <div className="col-12 col-md-6 col-lg-6">
-            <label for="exampleFormControlInput1" className="form-label">Número de personas</label>
-            <input type="email" className="form-control" id="exampleFormControlInput1"/>
-          </div>
+            <div className="col-12 col-md-6 col-lg-6">
+              <label for="date" className="form-label">Fecha:</label>
+              <input type="date" className="form-control" id="date" required/>
+            </div>
+            {/* No de personas */}
+            <div className="col-12 col-md-6 col-lg-6">
+              <label for="exampleFormControlInput1" className="form-label">Número de personas</label>
+              <input type="email" className="form-control" id="exampleFormControlInput1"/>
+            </div>
           </section>
           
           <div className="mb-3">
